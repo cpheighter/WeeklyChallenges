@@ -7,12 +7,16 @@ namespace ChallengesWithTestsMark8
     {
         public bool CharacterIsALetter(char c)
         {
-            throw new NotImplementedException();
+            return Char.IsLetter(c);
+
         }
 
         public bool CountOfElementsIsEven(string[] vals)
         {
-            throw new NotImplementedException();
+            foreach (var item in vals)
+            {
+
+            }
         }
 
         public bool IsNumberEven(int number)
